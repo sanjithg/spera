@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+    position:relative;
+    width: 200px;
+    height: 100px;
+}
+
+/* resize images */
+.main-logo {
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    width: auto;
+    height: -webkit-fill-available;
+    padding: 10px;
+}
