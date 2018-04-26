@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56f174f-3416-4586-8fba-84934d19023a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Layout.js" afterPath="$PROJECT_DIR$/src/containers/Layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/achievments_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/whatWeOffer/cns-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/whatWeOffer/cns-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/whatWeOffer/cns-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/ourFeatures/feature-man.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/Gallery/sv-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/Gallery/sv-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/Gallery/sv-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/Gallery/sv-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/Gallery/sv-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/Gallery/sv-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/OurAchievements/Achievement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ImageComponent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/WhatWeOffer/IndependentComponent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/OurAchievements/OurAchievements.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/OurFeatures/OurFeatures.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/OurServices/OurServices.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/OurServices/Service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/OurServices/ServiceHeading.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/WhatWeOffer/WhatWeOffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/OurFeatures/WhyChooseUs.js" />
     </list>
     <ignored path="spera.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +47,8 @@
       <file leaf-file-name="Layout.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/Layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71666664">
-              <caret line="139" column="40" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.3548387">
+              <caret line="139" column="14" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -197,10 +216,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1421" y="24" width="1865" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1421" y="24" width="1865" height="1056" extended-state="7" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25233644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2550852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -238,8 +257,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71666664">
-          <caret line="139" column="40" selection-start-line="139" selection-start-column="40" selection-end-line="139" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3548387">
+          <caret line="139" column="14" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
           <folding />
         </state>
       </provider>
