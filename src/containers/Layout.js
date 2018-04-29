@@ -13,7 +13,14 @@ import { Button } from 'react-bootstrap';
 
 class Layout extends Component {
   state = {
-    sliderImages: ["../../assets/images/sliderImages/slider-1.jpg", "../../assets/images/sliderImages/slider-2.jpg"],
+    sliderImages: [
+      "assets/images/sliderImages/slider-1.jpg",
+      "assets/images/sliderImages/slider-2.jpg",
+      "assets/images/sliderImages/slider-1.jpg",
+      "assets/images/sliderImages/slider-2.jpg",
+      "assets/images/sliderImages/slider-1.jpg",
+      "assets/images/sliderImages/slider-2.jpg"
+    ],
     ourServices: [{
       image: 1,
       heading: 'CONSTRUCTION',
