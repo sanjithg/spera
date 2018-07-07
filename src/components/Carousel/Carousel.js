@@ -7,7 +7,7 @@ const carousel = (props) => {
   return (
         <section className="">
             <Carousel autoPlay interval={3000} showThumbs={false}
-                      showStatus={false} infiniteLoop={true}>
+                      showStatus={false} showIndicators={false} infiniteLoop={true}>
               {props.slides.map(slide =>
                 <div>
                   <Slide key={slide} slide={slide}/>
