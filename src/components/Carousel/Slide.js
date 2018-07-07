@@ -2,7 +2,8 @@ import React from 'react';
 
 const slide = (props) => {
   return (
-    <div data-thumb={props.slider} data-src={props.slider}>
+    <div data-thumb={props.slide} data-src={props.slide}>
+        <img src={require("../../" + props.slide)} />
         <div className="camera_caption">
            <div className="container">
                 <h5 className=" wow fadeInUp animated">Welcome to our</h5>

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../components/Headers/Header';
-import Sliders from '../components/Sliders/Sliders';
+import Carousel from '../components/Carousel/Carousel';
 import Spinner from '../components/Spinner';
 import Features from '../components/Features/Features';
 import AboutUs from '../components/AboutUs';
@@ -162,7 +162,7 @@ class Layout extends Component {
       <div >
         {spinner}
         <Header />
-        <Sliders sliders={this.state.sliderImages}/>
+        <Carousel slides={this.state.sliderImages}/>
         <Features features = {this.getFeatures()}/>
         <AboutUs />
         <WhatWeOffer offers = {this.getOffers()}/>
