@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Header from '../components/Headers/Header';
 import Sliders from '../components/Sliders/Sliders';
 import Spinner from '../components/Spinner';
 import Features from '../components/Features/Features';
@@ -7,9 +6,9 @@ import AboutUs from '../components/AboutUs';
 import WhatWeOffer from '../components/WhatWeOffer/WhatWeOffer';
 import OurFeatures from '../components/OurFeatures/OurFeatures';
 import OurServices from '../components/OurServices/OurServices';
+import OurTeam from '../components/OurTeam/OurTeam';
 import OurAchievements from '../components/OurAchievements/OurAchievements';
 import { Button } from 'react-bootstrap';
-
 
 class Layout extends Component {
   state = {
@@ -113,6 +112,39 @@ class Layout extends Component {
     }])
   };
 
+  getTeamMembers() {
+    return ([{
+          key: 1,
+          accoutDetails: ""
+        },
+        {
+          key: 2,
+          accoutDetails: ""
+        },
+        {
+          key: 3,
+          accoutDetails: ""
+        },
+        {
+          key: 4,
+          accoutDetails: ""
+        },
+        {
+          key: 5,
+          accoutDetails: ""
+        },
+        {
+          key: 6,
+          accoutDetails: ""
+        },
+        {
+          key: 7,
+          accoutDetails: ""
+        }
+      ]
+    )
+  }
+
   getOurAchievements() {
     return ([{
       key: 1,
@@ -161,7 +193,6 @@ class Layout extends Component {
     return(
       <div >
         {spinner}
-        <Header />
         <Sliders sliders={this.state.sliderImages}/>
         <Features features = {this.getFeatures()}/>
         <AboutUs />
@@ -172,6 +203,7 @@ class Layout extends Component {
                      headings = {this.getServiceHeadings()}
                      active = {this.state.activeService}
                      clicked={this.updateServicesHandler}/>
+        <OurTeam team = {this.getTeamMembers()}/>
       </div>
     )
   }
