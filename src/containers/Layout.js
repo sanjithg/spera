@@ -9,16 +9,25 @@ import OurServices from '../components/OurServices/OurServices';
 import OurTeam from '../components/OurTeam/OurTeam';
 import OurAchievements from '../components/OurAchievements/OurAchievements';
 import { Button } from 'react-bootstrap';
+import scrollToComponent from 'react-scroll-to-component';
 
 class Layout extends Component {
   state = {
     sliderImages: [
       "assets/images/sliderImages/slider-1.jpg",
       "assets/images/sliderImages/slider-2.jpg",
-      "assets/images/sliderImages/slider-1.jpg",
-      "assets/images/sliderImages/slider-2.jpg",
-      "assets/images/sliderImages/slider-1.jpg",
-      "assets/images/sliderImages/slider-2.jpg"
+      "assets/images/sliderImages/slider-3.jpg",
+      "assets/images/sliderImages/slider-4.jpg",
+      "assets/images/sliderImages/slider-5.jpg",
+      "assets/images/sliderImages/slider-6.jpg",
+      "assets/images/sliderImages/slider-7.jpg",
+      "assets/images/sliderImages/slider-8.jpg",
+      "assets/images/sliderImages/slider-9.jpg",
+      "assets/images/sliderImages/slider-10.jpg",
+      "assets/images/sliderImages/slider-11.jpg",
+      "assets/images/sliderImages/slider-12.jpg",
+      "assets/images/sliderImages/slider-13.jpg",
+      "assets/images/sliderImages/slider-14.jpg"
     ],
     ourServices: [{
       image: 1,
@@ -55,22 +64,22 @@ class Layout extends Component {
       key: 1,
       icon: "fa fa-home",
       heading: "Professional Build",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      description: "If you are looking for Building Services in your area, then SPERA consultants Pvt Ltd are here to help!"
     }, {
       key: 2,
       icon: "fa fa-building",
       heading: "We Deliver Quality",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      description: "Quality is conformance to standards, we deliver quality which exceeds our customer's expectations"
     },  {
       key: 3,
       icon: "fa fa-clock-o",
       heading: "Always On Time",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      description: "Maintain a committed focus on timely delivery of every project and have an outstanding track record"
     }, {
       key: 4,
       icon: "fa fa-thumbs-up",
       heading: "We Are Passionate",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      description: "We are passionate! If we're not passionate about our work and how we carry out our role as leaders"
     }])
   };
 
@@ -78,18 +87,18 @@ class Layout extends Component {
     return ([{
       image: 1,
       icon: "fa fa-home",
-      heading: "BUILDING CONSTRUCTION",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      heading: "OUR VISION",
+      description: "Passionate about our vision and committed to setting new and higher standards of excellence"
     }, {
       image: 2,
       icon: "fa fa-keyboard-o",
-      heading: "PROJECT PLANNING",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      heading: "MISSION",
+      description: "Customer centric, Employees, learning and development, Metrics"
     },  {
       image: 3,
       icon: "fa fa-gavel",
-      heading: "HOUSE RENOVATION",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+      heading: "Core Values",
+      description: "Honesty and Integrity, Commitment, Postive Attitude, Motivated to grow and Learn"
     }])
   };
 
@@ -97,49 +106,42 @@ class Layout extends Component {
     return ([{
       key: 1,
       icon: "fa fa-wrench",
-      heading: "30+ YEARS OF EXPERIENCE",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting indus-try. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+      heading: "TECHNO",
+      description: "SPERA provides Economic Feasibility Studies"
     }, {
       key: 2,
       icon: "fa fa-rocket",
-      heading: "QUALIFIED EXPERTS",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting indus-try. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+      heading: "PROJECT REPORT",
+      description: "SPERA provides Detailed Project Report Studies"
     },  {
       key: 3,
       icon: "fa fa-users",
-      heading: "Best Customer Services",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting indus-try. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+      heading: "Engineering Services",
+      description: "SPERA provides Pre-bid Engineering Services"
     }])
   };
 
   getTeamMembers() {
     return ([{
           key: 1,
-          accoutDetails: ""
+          accoutDetails: "",
+          name: "Prashant Joshi",
+          designation: "M. Tech in Highway & Traffic Engineering (IIT Kharagpur) and MBA (IIT, Delhi)",
+          description: ""
         },
         {
           key: 2,
-          accoutDetails: ""
+          accoutDetails: "",
+          name: "R J Surya Prakash",
+          designation: "M.E in Structural Engineering",
+          description: ""
         },
         {
           key: 3,
-          accoutDetails: ""
-        },
-        {
-          key: 4,
-          accoutDetails: ""
-        },
-        {
-          key: 5,
-          accoutDetails: ""
-        },
-        {
-          key: 6,
-          accoutDetails: ""
-        },
-        {
-          key: 7,
-          accoutDetails: ""
+          accoutDetails: "",
+          name: "G Praveen Kumar",
+          designation: "M.tech in Structural Engineering",
+          description: ""
         }
       ]
     )
@@ -150,23 +152,23 @@ class Layout extends Component {
       key: 1,
       icon: "fa fa-connectdevelop",
       heading: "PROJECTS COMPLETED",
-      counter: 800
+      counter: 10
     }, {
       key: 2,
       icon: "fa fa-home",
-      heading: "HOUSE RENOVATIONS",
-      counter: 230
+      heading: "ON GOING PROJECTS COUNT",
+      counter: 7
     }, {
       key: 3,
       icon: "fa fa-child",
       heading: "WORKERS EMPLOYED",
-      counter: 1390
+      counter: 10
     }
     , {
       key: 4,
       icon: "fa fa-trophy",
       heading: "AWARDS WON",
-      counter: 125
+      counter: 8
     }])
   };
 
@@ -188,22 +190,26 @@ class Layout extends Component {
     return (['ALL', 'ARCHITECTURE', 'BUILDINGS', 'CONSTRUCTION', 'DESIGN', 'PAINTING']);
   };
 
+  scrollTo(event) {
+    scrollToComponent(this[event.target.id]);
+  }
+
   render(){
     const spinner =  this.state.loading? <Spinner /> : null;
     return(
       <div >
         {spinner}
         <Sliders sliders={this.state.sliderImages}/>
-        <Features features = {this.getFeatures()}/>
-        <AboutUs />
-        <WhatWeOffer offers = {this.getOffers()}/>
-        <OurFeatures features = {this.getOurFeatures()}/>
-        <OurAchievements achievements= {this.getOurAchievements()}/>
-        <OurServices services= {this.state.ourServices}
+        <section ref={(section) => { this.Features = section; }}><Features features = {this.getFeatures()}/></section>
+        <section ref={(section) => { this.AboutUs = section; }}><AboutUs /></section>
+        <section ref={(section) => { this.WhatWeOffer = section; }}><WhatWeOffer offers = {this.getOffers()}/></section>
+        <section ref={(section) => { this.OurFeatures = section; }}><OurFeatures features = {this.getOurFeatures()}/></section>
+        <section ref={(section) => { this.OurAchievements = section; }}><OurAchievements achievements= {this.getOurAchievements()}/></section>
+        <section ref={(section) => { this.OurServices = section; }}><OurServices services= {this.state.ourServices}
                      headings = {this.getServiceHeadings()}
                      active = {this.state.activeService}
-                     clicked={this.updateServicesHandler}/>
-        <OurTeam team = {this.getTeamMembers()}/>
+                     clicked={this.updateServicesHandler}/></section>
+        <section ref={(section) => { this.OurTeam = section; }}><OurTeam team = {this.getTeamMembers()}/></section>
       </div>
     )
   }

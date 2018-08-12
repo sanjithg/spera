@@ -5,6 +5,9 @@ const ourTeam = (props) => {
   const members = props.team.map(member => <TeamMember
     key = {member.key}
     image = {member.key}
+    name = {member.name}
+    designation = {member.designation}
+    description = {member.description}
   />
   );
 
@@ -13,7 +16,7 @@ const ourTeam = (props) => {
         <div className="container">
             <div className="tittle wow fadeInUp">
                 <h2>Our Team</h2>
-                <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
+                <h4>Meet our team</h4>
             </div>
             <div className="row team_row">
             {members}

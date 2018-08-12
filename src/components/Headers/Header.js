@@ -3,8 +3,9 @@ import { Navbar, Button } from 'react-bootstrap';
 import Logo from '../Logo';
 import ToolBar  from '../ToolBar';
 import HeaderTop  from './HeaderTop';
+import scrollToComponent from 'react-scroll-to-component';
 
-const header = () =>(
+const header = (props) =>(
   <div>
   <HeaderTop/>
     <nav className="navbar navbar-default header_aera" id="main_navbar">
@@ -34,10 +35,10 @@ const header = () =>(
               <div className="collapse navbar-collapse" id="min_navbar">
                   <ul className="nav navbar-nav navbar-right">
                       <li><a href="/home" className="dropdown-toggle" data-toggle="dropdown">Home</a></li>
-                      <li><a href="/aboutUs" className="dropdown-toggle" data-toggle="dropdown">About Us</a></li>
-                      <li><a href="/services" className="dropdown-toggle" data-toggle="dropdown">Services</a></li>
-                      <li><a href="/gallery">Gallery</a></li>
-                      <li><a href="/blog" className="dropdown-toggle" data-toggle="dropdown">Blog</a></li>
+                      <li><a href="#AboutUs" id="AboutUs" className="dropdown-toggle" data-toggle="dropdown" onClick={props.onClickScroll}>About Us</a></li>
+                      <li><a href="#OurServices" id="OurServices" className="dropdown-toggle" data-toggle="dropdown" onClick={props.onClickScroll}>Services</a></li>
+                      <li><a href="#OurFeatures" id="OurFeatures" className="dropdown-toggle" data-toggle="dropdown" onClick={props.onClickScroll}>Features</a></li>
+                      <li><a href="#OurAchievements" id="OurAchievements" className="dropdown-toggle" data-toggle="dropdown" onClick={props.onClickScroll}>Achievements</a></li>
                       <li><a href="/contact">Contact</a></li>
                       <li><a className="nav_searchFrom"><i className="fa fa-search"></i></a></li>
                   </ul>
