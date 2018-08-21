@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import Aux from './hoc/Aux';
 import Layout from './containers/Layout';
 import Contact from './containers/Contact/Contact';
-import Services from './containers/Services/Services';
+import Projects from './containers/Projects/Projects';
 import { BrowserRouter, Route, Switch, Redirect, HashRouter } from 'react-router-dom';
 import Header from './components/Headers/Header';
 import Footer from './components/Footer';
@@ -25,9 +25,9 @@ class App extends Component {
               <div className='Container'>
                 <Header onClickScroll={this.scrollTo.bind(this)}/>
                 <Switch>
-                  <Route path="/aboutUs" exact render={() => <h1>Not found</h1>} />
-                  <Route path="#" onClick={() => scrollToComponent(this.Services)} />
-                  <Route path="/gallery" exact render={() => <h1>Not found</h1>} />
+                  <Route path="/aboutUs" exact render={() => <h1>Under Construction!!</h1>} />
+                  <Route path="/gallery" exact render={() => <h1>Under Construction!!</h1>} />
+                  <Route path="/projects" exact component={Projects} />
                   <Route path="/blog" exact render={() => <h1>Not found</h1>} />
                   <Route path="/contact" exact component={Contact} />
                   <Route path="/home" exact render={() => <Layout ref={layout => this.layout = layout}/>} />
