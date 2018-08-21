@@ -8,7 +8,7 @@ const ourFeatures = (props) =>{
             <div className="container">
                 <div className="tittle wow fadeInUp">
                     <h2>Our Features</h2>
-                    <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
+                    <h4>Detailed Engineering Services for Highway & Bridge Projects</h4>
                 </div>
                 <div className="feature_row row">
                     <div className="col-md-6 feature_img">
@@ -17,7 +17,7 @@ const ourFeatures = (props) =>{
                     <div className="col-md-6 feature_content">
                         <div className="subtittle">
                             <h2>WHY CHOOSE US</h2>
-                            <h5>There are many variations of passages of Lorem Ipsum available.</h5>
+                            <h5> We will operate and represent the company in a professional and responsible manner at all times which delivering quality products and services.</h5>
                         </div>
                         {whyChooseUs}
                     </div>

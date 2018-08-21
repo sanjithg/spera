@@ -8,7 +8,7 @@ const footer = () => {
                 <div className="col-md-3 col-sm-6 footer_about">
                     <h2>ABOUT OUR COMPANY</h2>
                     <img src={require("../assets/images/spera-logo.png")} alt=""/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>We build long-term trusted relationships with the consultancies, concessionaires and local government bodies to create safe and economical designs</p>
                     <ul className="socail_icon">
                         <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -28,25 +28,20 @@ const footer = () => {
                     </ul>
                 </div>
                 <div className="col-md-3 col-sm-6 footer_about">
-                    <h2>Twitter Feed</h2>
-                    <a href="#" className="twitter">@colorlib: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</a>
-                    <a href="#" className="twitter">@colorlib: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</a>
-                </div>
-                <div className="col-md-3 col-sm-6 footer_about">
                     <h2>CONTACT US</h2>
                     <address>
                         <p>Have questions, comments or just want to say hello:</p>
                         <ul className="my_address">
-                            <li><a href="#"><i className="fa fa-envelope" aria-hidden="true"></i>info@thethemspro.com</a></li>
-                            <li><a href="#"><i className="fa fa-phone" aria-hidden="true"></i>+880 123 456 789</a></li>
-                            <li><a href="#"><i className="fa fa-map-marker" aria-hidden="true"></i><span>Sector # 10, Road # 05, Plot # 31, Uttara, Dhaka 1230 </span></a></li>
+                            <li><a href="#"><i className="fa fa-envelope" aria-hidden="true"></i>speraconsultants@gmail.com</a></li>
+                            <li><a href="#"><i className="fa fa-phone" aria-hidden="true"></i>+91 9494413431</a></li>
+                            <li><a href="#"><i className="fa fa-map-marker" aria-hidden="true"></i><span>6-2-913/914, 1st Floor, Progressive Towers, Khairatabad, Hyderabad – 500 004 </span></a></li>
                         </ul>
                     </address>
                 </div>
             </div>
         </div>
         <div className="copyright_area">
-            Copyright 2018 All rights reserved. Designed by <a href="https://colorlib.com">Colorlib.</a>
+            Copyright 2018 All rights reserved. By <a href="https://spera.com">Spera</a>
         </div>
     </footer>
   )

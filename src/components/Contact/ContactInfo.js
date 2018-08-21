@@ -12,14 +12,12 @@ const contactInfo = () => (
                       <div className="location_laft">
                           <a className="f_location" href="#">location</a>
                           <a href="#">phone</a>
-                          <a href="#">fax</a>
                           <a href="#">email</a>
                       </div>
                       <div className="address">
-                          <a href="#">Sector # 10, Road # 05, Plot # 31, Uttara, <br/> Dhaka 1230 </a>
-                          <a href="#">+880 123 456 789</a>
-                          <a href="#">(626) 935-3026</a>
-                          <a href="#">spera@gmail.com</a>
+                          <a href="#">6-2-913/914, 1st Floor, Progressive Towers, <br/> Khairatabad, Hyderabad – 500 004 </a>
+                          <a href="#">+91 9494413431</a>
+                          <a href="#">speraconsultants@gmail.com</a>
                       </div>
                   </div>
               </div>

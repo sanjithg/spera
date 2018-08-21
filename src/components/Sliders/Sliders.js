@@ -19,9 +19,7 @@ const sliders = (props) => {
 
         <section className="slider_area row m0">
             <div className="slider_inner">
-            <Slider autoplay="2000">
-
-
+            <Slider autoplay="1000">
               {ss}
             </Slider>
 

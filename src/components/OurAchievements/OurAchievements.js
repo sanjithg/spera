@@ -8,7 +8,7 @@ const ourAchievements = (props) => {
         <div className="container">
             <div className="tittle wow fadeInUp">
                 <h2>Our Achievement</h2>
-                <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
+                <h4>We have completed all projects as per commited time lines with out any issues</h4>
             </div>
             <div className="achievments_row row">
                 {achievement}
