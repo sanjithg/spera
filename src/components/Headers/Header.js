@@ -39,6 +39,7 @@ const header = (props) =>(
                       <li><a href="#OurServices" id="OurServices" className="dropdown-toggle" data-toggle="dropdown" onClick={props.onClickScroll}>Services</a></li>
                       <li><a href="#OurFeatures" id="OurFeatures" className="dropdown-toggle" data-toggle="dropdown" onClick={props.onClickScroll}>Features</a></li>
                       <li><a href="#OurAchievements" id="OurAchievements" className="dropdown-toggle" data-toggle="dropdown" onClick={props.onClickScroll}>Achievements</a></li>
+                      <li><a href="/projects">Projects</a></li>
                       <li><a href="/contact">Contact</a></li>
                       <li><a className="nav_searchFrom"><i className="fa fa-search"></i></a></li>
                   </ul>

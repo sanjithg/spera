@@ -15,7 +15,11 @@ class App extends Component {
   };
 
   scrollTo(event) {
-    this.layout.scrollTo(event);
+    if(this.layout != undefined) {
+      this.layout.scrollTo(event);
+    } else {
+      window.location.href = '/';      
+    }
   };
 
 
