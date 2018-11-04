@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import Aux from './hoc/Aux';
+// import Auxx from './hoc/Auxx';
 import Layout from './containers/Layout';
 import Contact from './containers/Contact/Contact';
 import Projects from './containers/Projects/Projects';

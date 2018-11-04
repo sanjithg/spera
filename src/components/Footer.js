@@ -32,7 +32,7 @@ const footer = () => {
                     <address>
                         <p>Have questions, comments or just want to say hello:</p>
                         <ul className="my_address">
-                            <li><a href="#"><i className="fa fa-envelope" aria-hidden="true"></i>speraconsultants@gmail.com</a></li>
+                            <li><a href="#"><i className="fa fa-envelope" aria-hidden="true"></i>info@sperainfra.in</a></li>
                             <li><a href="#"><i className="fa fa-phone" aria-hidden="true"></i>+91 9494413431</a></li>
                             <li><a href="#"><i className="fa fa-map-marker" aria-hidden="true"></i><span>6-2-913/914, 1st Floor, Progressive Towers, Khairatabad, Hyderabad – 500 004 </span></a></li>
                         </ul>

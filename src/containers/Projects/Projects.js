@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Aux from '../../hoc/Aux';
+// import Auxx from '../../hoc/Auxx';
 import Banner from '../../components/Banner';
 import ProjectsHeader from '../../components/Projects/ProjectsHeader';
 import OurProjects from '../../components/Projects/OurProjects';
@@ -105,10 +105,10 @@ class Projects extends Component {
 
   render() {
     return (
-            <Aux>
+            <div>
               <Banner links = {this.getLinkObject()}/>              
               <OurProjects projects = {this.getProjectsObject()}/>
-            </Aux>
+            </div>
     );
   }
 }

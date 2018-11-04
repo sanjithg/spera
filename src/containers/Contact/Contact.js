@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Aux from '../../hoc/Aux';
+// import Auxx from '../../hoc/Auxx';
 import Banner from '../../components/Banner';
 import Map from '../../components/Contact/Map';
 import ContactInfo from '../../components/Contact/ContactInfo';
@@ -26,11 +26,11 @@ class Contact extends Component {
 
   render() {
     return (
-            <Aux>
+            <div>
               <Banner links={this.getLinkObject()}/>
               <Map />
               <ContactInfo />
-            </Aux>
+            </div>
     );
   }
 }
