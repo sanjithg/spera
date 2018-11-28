@@ -27,7 +27,9 @@ class Layout extends Component {
       "assets/images/sliderImages/slider-11.jpg",
       "assets/images/sliderImages/slider-12.jpg",
       "assets/images/sliderImages/slider-13.jpg",
-      "assets/images/sliderImages/slider-14.jpg"
+      "assets/images/sliderImages/slider-14.jpg",
+      "assets/images/sliderImages/slider-15.jpg",
+      "assets/images/sliderImages/slider-16.jpg"
     ],
     ourServices: [{
       image: 1,

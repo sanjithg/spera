@@ -5,7 +5,7 @@ const headerTop = (props) => (
     <div className="container">
           <ul className="nav navbar-nav top_nav">
               <li><a><i className="fa fa-phone"></i>+91 9494413431</a></li>
-              <li><a><i className="fa fa-envelope-o"></i>speraconsultants@gmail.com</a></li>
+              <li><a><i className="fa fa-envelope-o"></i>info@sperainfra.in</a></li>
           </ul>
           <ul className="nav navbar-nav navbar-right social_nav">
               <li><a href="https://www.facebook.com/"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>

@@ -17,7 +17,7 @@ const contactInfo = () => (
                       <div className="address">
                           <a href="#">6-2-913/914, 1st Floor, Progressive Towers, <br/> Khairatabad, Hyderabad – 500 004 </a>
                           <a href="#">+91 9494413431</a>
-                          <a href="#">speraconsultants@gmail.com</a>
+                          <a href="#">info@sperainfra.in</a>
                       </div>
                   </div>
               </div>
