@@ -16,7 +16,7 @@ const ourServices = (props) => {
     />
   );
 
-  return (<section className="our_services_area" ref={(section) => { this.Services = section; }}>
+  return (<section className="our_services_area">
         <div className="container">
             <div className="tittle wow fadeInUp">
                 <h2>Our Services</h2>
