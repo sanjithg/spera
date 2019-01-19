@@ -8,7 +8,6 @@ import OurFeatures from '../components/OurFeatures/OurFeatures';
 import OurServices from '../components/OurServices/OurServices';
 import OurTeam from '../components/OurTeam/OurTeam';
 import OurAchievements from '../components/OurAchievements/OurAchievements';
-import { Button } from 'react-bootstrap';
 import scrollToComponent from 'react-scroll-to-component';
 
 class Layout extends Component {
@@ -178,7 +177,7 @@ class Layout extends Component {
     let ourServices = [...this.state.ourServices];
 
     ourServices.map((service, index) => {
-      if (service.type.indexOf(type) == -1) {
+      if (service.type.indexOf(type) === -1) {
         ourServices[index].show = false
       } else {
         ourServices[index].show = true

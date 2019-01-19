@@ -7,8 +7,8 @@ const service = (props) => (
            <div className="gallery_hover">
                <h4>{props.heading}</h4>
                <ul>
-                   <li><a href="#"><i className="fa fa-link" aria-hidden="true"></i></a></li>
-                   <li><a href="#"><i className="fa fa-search" aria-hidden="true"></i></a></li>
+                   <li><i className="fa fa-link" aria-hidden="true"></i></li>
+                   <li><i className="fa fa-search" aria-hidden="true"></i></li>
                </ul>
            </div>
        </div>

@@ -10,14 +10,14 @@ const contactInfo = () => (
                   <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
                   <div className="location">
                       <div className="location_laft">
-                          <a className="f_location" href="#">location</a>
-                          <a href="#">phone</a>
-                          <a href="#">email</a>
+                          <a className="f_location">location</a>
+                          <a>phone</a>
+                          <a>email</a>
                       </div>
                       <div className="address">
-                          <a href="#">6-2-913/914, 1st Floor, Progressive Towers, <br/> Khairatabad, Hyderabad – 500 004 </a>
-                          <a href="#">+91 9494413431</a>
-                          <a href="#">info@sperainfra.in</a>
+                          <a>6-2-913/914, 1st Floor, Progressive Towers, <br/> Khairatabad, Hyderabad – 500 004 </a>
+                          <a>+91 9494413431</a>
+                          <a>info@sperainfra.in</a>
                       </div>
                   </div>
               </div>

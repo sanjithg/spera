@@ -1,9 +1,6 @@
 import React from 'react';
-import { Navbar, Button } from 'react-bootstrap';
 import Logo from '../Logo';
-import ToolBar  from '../ToolBar';
 import HeaderTop  from './HeaderTop';
-import scrollToComponent from 'react-scroll-to-component';
 
 const header = (props) =>(
   <div>
@@ -27,7 +24,7 @@ const header = (props) =>(
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
                   </button>
-                  <a className="navbar-brand" href="index.html"><a href="/"><Logo cssClass='main-logo'/></a></a>
+                  <a className="navbar-brand" href="index.html"><Logo cssClass='main-logo'/></a>
               </div>
           </div>
 
@@ -39,9 +36,14 @@ const header = (props) =>(
                       <li><a href="#OurServices" id="OurServices" className="dropdown-toggle" data-toggle="dropdown" onClick={props.onClickScroll}>Services</a></li>
                       <li><a href="#OurFeatures" id="OurFeatures" className="dropdown-toggle" data-toggle="dropdown" onClick={props.onClickScroll}>Features</a></li>
                       <li><a href="#OurAchievements" id="OurAchievements" className="dropdown-toggle" data-toggle="dropdown" onClick={props.onClickScroll}>Achievements</a></li>
-                      <li><a href="/projects">Projects</a></li>
+                      <li className="dropdown submenu">
+                          <a className="dropdown-toggle" data-toggle="dropdown">Projects</a>
+                          <ul className="dropdown-menu">
+                              <li><a href="/projects/onGoing">Ongoing</a></li>
+                              <li><a href="/projects/completed">Completed</a></li>
+                          </ul>
+                      </li>
                       <li><a href="/contact">Contact</a></li>
-                      <li><a className="nav_searchFrom"><i className="fa fa-search"></i></a></li>
                   </ul>
               </div>
           </div>

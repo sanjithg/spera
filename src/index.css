@@ -2456,3 +2456,64 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   .banner_area .breadcrumb li a.active {
     color: #f6b60b;
   }
+  .blog_tow_area {
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+  .blog_tow_area .blog_tow_row .renovation {
+    padding-bottom: 30px;
+  }
+  .blog_tow_area .blog_tow_row .renovation img {
+    max-width: 100%;
+  }
+  .blog_tow_area .blog_tow_row .renovation .renovation_content {
+    border: 1px solid #888;
+    padding: 28px;
+  }
+  .blog_tow_area .blog_tow_row .renovation .renovation_content .clipboard {
+    background: #f6b60b;
+    border: 1px solid #fff;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    margin-top: -60px;
+    text-align: center;
+    z-index: 1;
+  }
+  .blog_tow_area .blog_tow_row .renovation .renovation_content .clipboard i {
+    font-size: 24px;
+    color: #fefefe;
+    line-height: 60px;
+  }
+  .blog_tow_area .blog_tow_row .renovation .renovation_content .tittle {
+    font: 700 14px/1 "Roboto", sans-serif;
+    color: #222222;
+    text-align: left;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 30px;
+  }
+  .blog_tow_area .blog_tow_row .renovation .renovation_content .tittle:hover, .blog_tow_area .blog_tow_row .renovation .renovation_content .tittle:focus {
+    color: #f6b60b;
+  }
+  .blog_tow_area .blog_tow_row .renovation .renovation_content .date_comment {
+    padding-top: 20px;
+  }
+  .blog_tow_area .blog_tow_row .renovation .renovation_content .date_comment a {
+    font: 400 14px "Roboto", sans-serif;
+    color: #888;
+    padding-right: 60px;
+  }
+  .blog_tow_area .blog_tow_row .renovation .renovation_content .date_comment a i {
+    padding-right: 10px;
+  }
+  .blog_tow_area .blog_tow_row .renovation .renovation_content p {
+    font: 400 14px/26px "Roboto", sans-serif;
+    color: #555555;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+  .renovation_content {
+    height: 285px;
+  }

@@ -1,18 +1,28 @@
 import React from 'react';
 
-const service = (props) => (
-   <div className="single_facilities col-xs-4 p0">
-      <div className="single_facilities_inner">
-           <img src={require("../../assets/images/Gallery/sv-"+props.image+".jpg")} alt=""/>
-           <div className="gallery_hover">
-               <h4>{props.heading}</h4>
-               <ul>
-                   <li><a href="#"><i className="fa fa-link" aria-hidden="true"></i></a></li>
-                   <li><a href="#"><i className="fa fa-search" aria-hidden="true"></i></a></li>
-               </ul>
-           </div>
-       </div>
-   </div>
-);
+const service = (props) => {
+  let str = props.desc;
+  const strLen = props.desc.length;
+  if (strLen > 180) {
+    str = str.substring(0, 180) + "..."
+  };
+
+  return(<div className="col-md-4 col-sm-6">
+      <div className="renovation">
+          <img src={require("../../assets/images/projects/"+props.image)} alt=""/>
+          <div className="renovation_content">
+              <a className="clipboard"><i className="fa fa-clipboard" aria-hidden="true"></i></a>
+              <a className="tittle">{props.Client}</a>
+              <div className="date_comment">
+                <a><i className="fa fa-calendar" aria-hidden="true"></i>{props.date}</a>
+                <a><i className="fa fa-cogs" aria-hidden="true"></i>Status: {props.status}</a>
+              </div>
+              <div className='proj-desc'>
+                <p>{str}</p>
+              </div>
+          </div>
+      </div>
+  </div>)
+};
 
 export default service;

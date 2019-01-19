@@ -17,7 +17,7 @@ const aboutUs = () => (
                     <a href="/contact" className="button_all">Contact Now</a>
                 </div>
                 <div className="col-md-5 col-sm-6 about_client">
-                    <img src={clientImage} alt="Client-image"/>
+                    <img src={clientImage} alt="Client"/>
                 </div>
             </div>
         </div>

@@ -3,7 +3,6 @@ import Service from './Service';
 import ServiceHeading from './ServiceHeading';
 
 const ourServices = (props) => {
-  console.info (props.services);
   const services = props.services.map(service => {
     if(service.show){
       return(<Service key={service.image} {...service}/> );
@@ -13,7 +12,7 @@ const ourServices = (props) => {
     key={heading}
     heading={heading}
     clicked = {props.clicked}
-    active={(heading == props.active)? 'active': null}
+    active={(heading === props.active)? 'active': null}
     />
   );
 

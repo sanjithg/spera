@@ -9,7 +9,7 @@ const slider = (props) => (
               <p className=" wow fadeInUp animated" data-wow-delay="0.8s">
                 Our team of professionals will help you turn your dream home or flat into a reality fast. The Love Boat promises something for everyone. Now the world dont move to the beat of just one
               </p>
-              <a className=" wow fadeInUp animated" data-wow-delay="2s" href="#">Read More</a>
+              <a className=" wow fadeInUp animated" data-wow-delay="2s">Read More</a>
          </div>
       </div>
   </div>

@@ -7,7 +7,7 @@ const independentComponent = (props) => (
        </div>
        <div className="cns-content">
             <i className={props.icon} aria-hidden="true"></i>
-            <a href="#">{props.heading}</a>
+            <a>{props.heading}</a>
             <p>{props.description}</p>
        </div>
     </div>

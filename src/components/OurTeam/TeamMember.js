@@ -6,11 +6,11 @@ const teamMember = (props) => (
           <img src={require("../../assets/images/ourTeam/tm-"+props.image+".png")} alt=""/>
           <div className="team_content">
               <ul>
-                  <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                  <li><a><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
               </ul>
-              <a href="#" className="name">{props.name}</a>
+              <a className="name">{props.name}</a>
               <h6>{props.designation}</h6>
           </div>
      </div>

@@ -1,8 +1,8 @@
 import React from 'react';
 
 const banner = (props) => {
-  const links = props.links.map(link => (<li>
-      <a key={link.link} className={link.active} href={link.link}>{link.text}</a>
+  const links = props.links.map(link => (<li key={link.link}>
+      <a className={link.active} href={link.link}>{link.text}</a>
     </li>));
 
   return(
